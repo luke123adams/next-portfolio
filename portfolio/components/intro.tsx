@@ -7,11 +7,16 @@ import Link from 'next/link'
 import { BsArrowRight, BsLinkedin } from "react-icons/bs"
 import { HiDownload } from "react-icons/hi"
 import { FaGithubSquare } from 'react-icons/fa'
-import SectionDivider from './section-divider'
+import { useSectionInView } from '@/lib/hooks'
+
 
 export default function Intro() {
+    const { ref } = useSectionInView('Home', 0.5)
+    
+  
   return (
-    <section className='mb-28 max-w-[50rem] text-center'>
+    <section id='home' className='scroll-mt-[100rem] mb-28 max-w-[50rem] text-center'
+    ref={ref}>
         <div className='flex items-center justify-center sm:mb-0'>
             <motion.div 
             initial={{ opacity: 0, scale: 0 }}
