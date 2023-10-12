@@ -2,7 +2,7 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
+import foodmapscreenshot from "@/public/foodmapscreenshot.png";
 import rmtdevImg from "@/public/rmtdev.png";
 import wordanalyticsImg from "@/public/wordanalytics.png";
 
@@ -35,38 +35,38 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "Debt Management consultant",
+    location: "Birmingham",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
-    icon: React.createElement(LuGraduationCap),
-    date: "2019",
+      "I spent 5 years as a civil servant in a telephony-based role, where I conducted thousands of conversations with taxpayers with a diverse range of backgrounds, from sole traders to directors with thousands of employees on their payroll. This taught me great communication skills as well as how to work within a strict compliance/GDPR framework",
+    icon: React.createElement(CgWorkAlt),
+    date: "2017 - 2022",
   },
   {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
+    title: "School of Code",
+    location: "Birmingham",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
-    icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+      "I completed an intensive full-stack web development course designed to take me from zero coding experience to job-ready in 4 months. The course focused heavily on collaboration, culminating in a month-long group project to design and deploy a React application",
+    icon: React.createElement(LuGraduationCap),
+    date: "2023",
   },
   {
     title: "Full-Stack Developer",
-    location: "Houston, TX",
+    location: "Remote",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
+      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Express, MongoDB ElephantSQL. I'm open to full-time opportunities.",
     icon: React.createElement(FaReact),
-    date: "2021 - present",
+    date: "2023 - present",
   },
 ] as const;
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "Foodmap",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: corpcommentImg,
+      "This is my final project for the bootcamp; a web app designed to help people with specific dietary requirements using a webcam to scan product barcodes",
+    tags: ["React", "React-Router", "Cypress", "React Testing library", "Jest"],
+    imageUrl: foodmapscreenshot,
   },
   {
     title: "rmtDev",
