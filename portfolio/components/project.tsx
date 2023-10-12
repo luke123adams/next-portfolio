@@ -30,7 +30,6 @@ export default function Project ({
     
     className='group mb-3 sm:mb-8 even:pl-8
     last:mb-0'
-    
      style= {{
         scale: scaleProgress,
         opacity: opacityProgress,
