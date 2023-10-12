@@ -27,7 +27,7 @@ export default function Project ({
     
     return (
     <motion.div
-    ref={ref}
+    
     className='group mb-3 sm:mb-8 even:pl-8
     last:mb-0'
     
