@@ -75,7 +75,7 @@ export default function Intro() {
                  flex items-center gap-2 rounded-full
                 outline-none hover:scale-110 focus:scale-110 
                 active:scale-105 transition cursor-pointer border border-black/10"
-                href="/CV.pdf" download>
+                href="/Luke_Adams_Resume_12-10-2023-15-45-22.pdf" download>
                     Download CV{" "} <HiDownload className="opacity-60 group-hover:translate-y-1 transition"/>
                     </a>
 
