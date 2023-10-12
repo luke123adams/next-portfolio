@@ -8,12 +8,17 @@ import { BsArrowRight, BsLinkedin } from "react-icons/bs"
 import { HiDownload } from "react-icons/hi"
 import { FaGithubSquare } from 'react-icons/fa'
 import { useSectionInView } from '@/lib/hooks'
+import { useActiveSectionContext } from '@/contexts/active-section-context'
 
 
 export default function Intro() {
     const { ref } = useSectionInView('Home', 0.5)
-    
   
+    const {
+        setActiveSection,
+        setTimeOfLastClick
+    } = useActiveSectionContext()
+
   return (
     <section id='home' className='scroll-mt-[100rem] mb-28 max-w-[50rem] text-center'
     ref={ref}>
@@ -60,7 +65,8 @@ export default function Intro() {
                 delay: 0.1,
             }}>
                 <Link href="#contact"
-                className='group bg-gray-900 text-white px-7 py-3 flex items-center gap-2 rounded-full outline-none hover:scale-110 hover:bg-grey-950 focus:scale-110 active:scale-105 transition'>
+                className='group bg-gray-900 text-white px-7 py-3 flex items-center gap-2 rounded-full outline-none hover:scale-110 hover:bg-grey-950 focus:scale-110 active:scale-105 transition'
+                onClick={()=> {setActiveSection('Contact'), setTimeOfLastClick(Date.now)}}>
                     Contact me {" "}
                     <BsArrowRight className="opacity-70 group-hover:translate-x-1 transition" />
                 </Link>
