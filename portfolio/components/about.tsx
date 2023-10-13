@@ -19,10 +19,34 @@ export default function About() {
     id="about">
         <SectionHeading>About me</SectionHeading>
         <p className='mb-3'>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vitae rhoncus lorem. Vivamus accumsan cursus faucibus. Cras eleifend semper justo vel molestie. Pellentesque felis odio, dapibus sed pharetra in, pulvinar nec felis. Pellentesque ut pretium nisi. Fusce vestibulum nunc in eros vulputate, at luctus nisi rhoncus. In tincidunt purus aliquam nisl rhoncus, sed vestibulum libero venenatis. Cras eu mauris ligula.
-        </p>
+        I'm a former civil servant with 5
+years experience looking to make a
+career change into the tech
+industry.
+I'm a fast learner who is
+fascinated by patterns and I have a
+natural curiosity about the
+underlying systems that make the
+world work. I built my first
+computer when I was 18 and have
+been tweaking and tinkering with
+PCs ever since.        </p>
         <p>
-        Fusce et aliquam ligula. Quisque aliquet viverra dapibus. Duis mi urna, tempus sed mauris eu, laoreet lobortis mauris. Integer id mi urna. Proin a ligula viverra, rutrum ligula vel, eleifend justo. Fusce elementum dolor at est tristique luctus. Etiam dignissim lobortis eros, sit amet semper leo lacinia vel. Nam ac nisl vel elit auctor sodales. Fusce augue risus, sodales vitae cursus id, varius at mauris. Mauris vel libero lobortis, porttitor metus quis, pulvinar ligula. Nam eu ante ac orci pellentesque venenatis vel id nisi. Nulla dictum risus mauris, in volutpat erat gravida eu. Praesent id dolor ullamcorper, tempus purus nec, commodo velit. Sed vel nisl ex. Nunc mattis nibh ex, sed sodales mi porttitor at. Donec iaculis sit amet lectus non accumsan.
+        I began my development journey at
+the School of Code after being
+chosen from thousands of applicants
+based on my soft skills, background
+and enthusiasm for the industry.
+After completing the full-time
+bootcamp in March, I have continued
+working on projects using the tech
+stack learned on the course as well
+as learning new technologies and
+languages. The main project I'm
+currently working on is a website
+with tools to help people run
+tabletop games such as Dungeons and
+Dragons.
         </p>
     </motion.section>
   )
