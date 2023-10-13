@@ -4,7 +4,7 @@ import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import foodmapScreenshot from "@/public/foodmapscreenshot.png";
 import carhubScreenshot from "@/public/carhubscreenshot.png"
-import fngScreenshot from "@/public/fngScreenshot.png"
+import fngScreenshot from "@/public/fngscreenshot.png"
 export const links = [
   {
     name: "Home",
