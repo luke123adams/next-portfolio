@@ -66,6 +66,7 @@ export const projectsData = [
       "Final project for the bootcamp; a web app designed to help people with specific dietary requirements using a webcam to scan product barcodes.",
     tags: ["React", "React-Router", "Cypress", "React Testing library", "Jest"],
     imageUrl: foodmapScreenshot,
+    link: 'https://foodmap-hozp.onrender.com/'
   },
   {
     title: "Fantasy Name Generator",
@@ -73,6 +74,7 @@ export const projectsData = [
     "Ongoing personal project using React native. My main focus with this project is to learn more about using SQL databases and making API calls",
     tags: ["React", "ElephantSQL", "Express"],
     imageUrl: fngScreenshot,
+    link: 'https://lukes-dm-toolkit.onrender.com/'
   },
   {
     title: "Car Hub",
@@ -80,6 +82,8 @@ export const projectsData = [
       "My first Next.Js app. Users can browse through a catalogue of cars provided by RapidAPI",
     tags: ["React", "Next.js", "SQL", "Tailwind"],
     imageUrl: carhubScreenshot,
+    link: 'https://next-tailwind-car-app.vercel.app/'
+
   },
 ] as const;
 
