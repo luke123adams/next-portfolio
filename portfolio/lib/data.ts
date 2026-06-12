@@ -63,7 +63,7 @@ export const experiencesData = [
     description:
       "I got my first job in web development working for Donorflex, a company that creates database management software for the charity sector. Using a niche language called Dataflex, I helped to migrate legacy Windows software over to a web application. I worked across the full stack, designing front end search pages and writing SQL request handlers to connect therm with our database. I also gained a certified Scrum Master qualification while working there.",
     icon: React.createElement(CgWorkAlt),
-    date: "2017 - 2022",
+    date: "2024 - 2025",
   },
 ] as const;
 
