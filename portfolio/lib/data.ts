@@ -53,9 +53,17 @@ export const experiencesData = [
     title: "Full-Stack Developer",
     location: "Remote",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Express, MongoDB ElephantSQL. I'm open to full-time opportunities.",
+      "After completing the full stack development course I spent a year developing my programming and web development skills as a freelancer.",
     icon: React.createElement(FaReact),
-    date: "2023 - present",
+    date: "2023 - 2024",
+  },
+  {
+    title: "Software Developer",
+    location: "Donorflex",
+    description:
+      "I got my first job in web development working for Donorflex, a company that creates database management software for the charity sector. Using a niche language called Dataflex, I helped to migrate legacy Windows software over to a web application. I worked across the full stack, designing front end search pages and writing SQL request handlers to connect therm with our database. I also gained a certified Scrum Master qualification while working there.",
+    icon: React.createElement(CgWorkAlt),
+    date: "2017 - 2022",
   },
 ] as const;
 
